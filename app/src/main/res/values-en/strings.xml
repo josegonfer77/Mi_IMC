@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My_IMC</string>
+    <string name="Introduce_tu_peso">Introduce your weight</string>
+    <string name="Peso">Weight</string>
+    <string name="introduce_tu_altura">Introduce your height</string>
+    <string name="altura">Height</string>
+    <string name="calcular_imc">CALCULATE IMC</string>
+
+
+
+</resources>
