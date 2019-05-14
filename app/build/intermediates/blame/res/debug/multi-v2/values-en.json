@@ -1,23 +1,23 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Marin\\Desktop\\Mi_IMC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "outputFile": "/Users/dev1/StudioProjects/Mi_IMC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Marin\\Desktop\\Mi_IMC\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "source": "/Users/dev1/StudioProjects/Mi_IMC/app/src/main/res/values-en/strings.xml",
                     "from": {
-                        "startLines": "3,4,6,2,7,5",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "102,171,283,57,326,212",
-                        "endColumns": "67,39,41,43,54,69",
-                        "endOffsets": "165,206,320,96,376,277"
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,12,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,4,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,582,-1,-1,-1",
+                        "endColumns": "-1,-1,-1,-1,-1,-1,-1,35,-1,-1,-1",
+                        "endOffsets": "-1,-1,-1,-1,-1,-1,-1,613,-1,-1,-1"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,123,163,205,249,304",
-                        "endColumns": "67,39,41,43,54,69",
-                        "endOffsets": "118,158,200,244,299,369"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,129,169,211,255,310,360,411,447,527,569",
+                        "endColumns": "73,39,41,43,54,49,50,35,79,41,48",
+                        "endOffsets": "124,164,206,250,305,355,406,442,522,564,613"
                     }
                 }
             ]

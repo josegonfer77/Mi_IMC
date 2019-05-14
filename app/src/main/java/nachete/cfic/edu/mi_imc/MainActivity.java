@@ -1,5 +1,6 @@
 package nachete.cfic.edu.mi_imc;
 
+import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -7,6 +8,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,6 +19,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ImageView imageView = findViewById(R.id.imageView);
         imageView.setImageResource(R.mipmap.ic_launcher);
+
+        if (savedInstanceState==null)
+        {
+            Log.d("MIAPP", "Es la primera vez que se ejecuta");
+        }else {
+            Log.d("MIAPP", "No es la primera ejecucion");
+        }
     }
 
     @Override
@@ -63,24 +73,40 @@ public class MainActivity extends AppCompatActivity {
         // calcular imc
 
         Float imc = (peso/(altura*altura));
+        Float imc_en = imc*703;
 
-        // Mostrar IMC
+        // Mostrar IMC y Resultado
 
+        String idioma = Locale.getDefault().getLanguage();
         TextView textView = findViewById(R.id.textView_imc);
-        textView.setText(imc.toString());
+
+        if (idioma =="en") {
+            textView.setText(imc_en.toString());
+            imc = imc_en;
+        }else {
+            textView.setText(imc.toString());
+        }
+
+        TextView textView1 = findViewById(R.id.textViewResultado);
+
 
         ImageView imageView = findViewById(R.id.imageView);
 
         if (imc<=18){
             imageView.setImageResource(R.drawable.imc_desnutrido);
+            textView1.setText(getString(R.string.desnutrido));
         }else if (imc<=25){
             imageView.setImageResource(R.drawable.imc_delgado);
+            textView1.setText(getString(R.string.delgado));
         }else if (imc<=30){
             imageView.setImageResource(R.drawable.imc_obeso);
+            textView1.setText(getString(R.string.sobrepeso));
         }else {
             imageView.setImageResource(R.drawable.icm_sobrepeso);
+            textView1.setText(getString(R.string.obeso));
         }
 
     }
+
 
 }

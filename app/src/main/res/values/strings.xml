@@ -1,9 +1,14 @@
 <resources>
     <string name="app_name">Mi_IMC</string>
-    <string name="Introduce_tu_peso">Introduce tu peso</string>
+    <string name="Introduce_tu_peso">Introduce tu peso en Kg</string>
     <string name="Peso">Peso</string>
-    <string name="introduce_tu_altura">Introduce tu altura</string>
+    <string name="introduce_tu_altura">Introduce tu altura en metros</string>
     <string name="altura">Altura</string>
     <string name="calcular_imc">CALCULAR IMC</string>
+    <string name="desnutrido">DESNUTRIDO</string>
+    <string name="delgado">DELGADO</string>
+    <string name="sobrepeso">SOBREPESO</string>
+    <string name="obeso">OBESO</string>
+    <string name="imc">IMC</string>
 
 </resources>

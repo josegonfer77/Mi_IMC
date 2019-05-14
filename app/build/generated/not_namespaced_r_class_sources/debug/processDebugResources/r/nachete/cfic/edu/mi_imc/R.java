@@ -3119,20 +3119,21 @@ public final class R {
     public static final int textSpacerNoButtons=0x7f070089;
     public static final int textSpacerNoTitle=0x7f07008a;
     public static final int textView2_altura=0x7f07008b;
-    public static final int textView_imc=0x7f07008c;
-    public static final int textView_peso=0x7f07008d;
-    public static final int time=0x7f07008e;
-    public static final int title=0x7f07008f;
-    public static final int titleDividerNoCustom=0x7f070090;
-    public static final int title_template=0x7f070091;
-    public static final int top=0x7f070092;
-    public static final int topPanel=0x7f070093;
-    public static final int uniform=0x7f070094;
-    public static final int up=0x7f070095;
-    public static final int useLogo=0x7f070096;
-    public static final int withText=0x7f070097;
-    public static final int wrap=0x7f070098;
-    public static final int wrap_content=0x7f070099;
+    public static final int textViewResultado=0x7f07008c;
+    public static final int textView_imc=0x7f07008d;
+    public static final int textView_peso=0x7f07008e;
+    public static final int time=0x7f07008f;
+    public static final int title=0x7f070090;
+    public static final int titleDividerNoCustom=0x7f070091;
+    public static final int title_template=0x7f070092;
+    public static final int top=0x7f070093;
+    public static final int topPanel=0x7f070094;
+    public static final int uniform=0x7f070095;
+    public static final int up=0x7f070096;
+    public static final int useLogo=0x7f070097;
+    public static final int withText=0x7f070098;
+    public static final int wrap=0x7f070099;
+    public static final int wrap_content=0x7f07009a;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -3232,9 +3233,14 @@ public final class R {
     public static final int altura=0x7f0b0029;
     public static final int app_name=0x7f0b002a;
     public static final int calcular_imc=0x7f0b002b;
-    public static final int introduce_tu_altura=0x7f0b002c;
-    public static final int search_menu_title=0x7f0b002d;
-    public static final int status_bar_notification_info_overflow=0x7f0b002e;
+    public static final int delgado=0x7f0b002c;
+    public static final int desnutrido=0x7f0b002d;
+    public static final int imc=0x7f0b002e;
+    public static final int introduce_tu_altura=0x7f0b002f;
+    public static final int obeso=0x7f0b0030;
+    public static final int search_menu_title=0x7f0b0031;
+    public static final int sobrepeso=0x7f0b0032;
+    public static final int status_bar_notification_info_overflow=0x7f0b0033;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0c0000;

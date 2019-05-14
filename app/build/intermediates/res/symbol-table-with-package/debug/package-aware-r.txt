@@ -788,6 +788,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textView2_altura
+id textViewResultado
 id textView_imc
 id textView_peso
 id time
@@ -893,8 +894,13 @@ string abc_toolbar_collapse_description
 string altura
 string app_name
 string calcular_imc
+string delgado
+string desnutrido
+string imc
 string introduce_tu_altura
+string obeso
 string search_menu_title
+string sobrepeso
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Marin\\Desktop\\Mi_IMC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "/Users/dev1/StudioProjects/Mi_IMC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Marin\\.gradle\\caches\\transforms-2\\files-2.1\\1c35893203bed0c7a54a611e3f6199c2\\res\\values-v28\\values-v28.xml",
+                    "source": "/Users/dev1/.gradle/caches/transforms-2/files-2.1/415b4806153b53ae4cc2cf33723581c0/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

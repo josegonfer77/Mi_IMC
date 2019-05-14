@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Marin\\Desktop\\Mi_IMC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "/Users/dev1/StudioProjects/Mi_IMC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Marin\\.gradle\\caches\\transforms-2\\files-2.1\\1c35893203bed0c7a54a611e3f6199c2\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "/Users/dev1/.gradle/caches/transforms-2/files-2.1/415b4806153b53ae4cc2cf33723581c0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
