@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/dev1/StudioProjects/Mi_IMC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml",
+            "outputFile": "/Users/dev1/StudioProjects/Mi_IMC2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml",
             "map": [
                 {
                     "source": "/Users/dev1/.gradle/caches/transforms-2/files-2.1/7eeca1baa94144e55b903729d48e37b0/res/values-gl/values-gl.xml",

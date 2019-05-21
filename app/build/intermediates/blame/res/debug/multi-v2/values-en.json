@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/dev1/StudioProjects/Mi_IMC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
+            "outputFile": "/Users/dev1/StudioProjects/Mi_IMC2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
             "map": [
                 {
-                    "source": "/Users/dev1/StudioProjects/Mi_IMC/app/src/main/res/values-en/strings.xml",
+                    "source": "/Users/dev1/StudioProjects/Mi_IMC2/app/src/main/res/values-en/strings.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,12,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,4,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,582,-1,-1,-1",
-                        "endColumns": "-1,-1,-1,-1,-1,-1,-1,35,-1,-1,-1",
-                        "endOffsets": "-1,-1,-1,-1,-1,-1,-1,613,-1,-1,-1"
+                        "startLines": "3,4,6,2,7,9,8,12,5,11,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "99,173,293,55,335,441,390,582,213,540,491",
+                        "endColumns": "73,39,41,43,54,49,50,35,79,41,48",
+                        "endOffsets": "168,208,330,94,385,486,436,613,288,577,535"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12",
